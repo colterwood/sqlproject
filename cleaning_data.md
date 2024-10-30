@@ -1,6 +1,8 @@
 What issues will you address by cleaning the data?
 Products Table:
 -Confirm there are no duplicate sku numbers
+-Create consistency in name formatting, spelling, etc
+-Remove unnecessary spacing in name column (At the beginning of the name and double spacing in between words)
 -
 
 
