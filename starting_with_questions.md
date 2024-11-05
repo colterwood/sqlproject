@@ -1,4 +1,4 @@
-![schema](https://github.com/user-attachments/assets/6a1a4987-b9b0-4c2f-a32d-fdc0f36d140e)Answer the following questions and provide the SQL queries used to find the answer.
+Answer the following questions and provide the SQL queries used to find the answer.
 
     
 **Question 1: Which cities and countries have the highest level of transaction revenues on the site?**
