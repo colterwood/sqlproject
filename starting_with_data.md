@@ -165,5 +165,20 @@ Answer:
 Question 5: Which users have ordered more than once?
 
 SQL Queries:
+SELECT
+	fullvisitorid,
+	COUNT(*)
+FROM
+	sessions
+WHERE	
+	totaltransactionrevenue IS NOT NULL
+GROUP BY
+	1
+HAVING
+	COUNT(*) > 1
+ORDER BY
+	2 DESC
+
 
 Answer:
+![image](https://github.com/user-attachments/assets/3b8425af-3a70-470c-89c0-6fe3e280c3f2)
