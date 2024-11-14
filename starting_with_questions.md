@@ -5,6 +5,7 @@ Answer the following questions and provide the SQL queries used to find the answ
 
 SQL Queries:
 **Commented out lines were put in to verify the total matched the total of Query number 2**
+```SQL
 SELECT	
     CASE	
          WHEN city LIKE 'not available%'
@@ -24,7 +25,9 @@ GROUP BY
 	1,2
 ORDER BY
 	3 DESC
+```
 
+```SQL
 SELECT	
 	country,
 	SUM(totaltransactionrevenue / 1000000) AS total_revenue
@@ -39,7 +42,7 @@ GROUP BY
 	1
 ORDER BY
 	2 DESC
-
+```
 
 
 **This query was just used to confirm that the total_revenue of the above query matched the total_revenue for the table**
